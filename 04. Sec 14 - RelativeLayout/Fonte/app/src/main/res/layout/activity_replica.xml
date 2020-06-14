@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#48A5CA"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".ReplicaActivity">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Quarta, 21 de Setembro"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textDay"
+        android:layout_marginTop="16dp"
+        android:background="#fff" />
+
+    <CheckBox
+        android:id="@+id/checkTask1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDay"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="64dp"
+        android:text="Cortar a grama"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkTask1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:text="Fazer compras"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Complete todas as tarefas"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>
