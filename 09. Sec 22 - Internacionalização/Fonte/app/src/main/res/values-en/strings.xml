@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Foods</string>
+    <string name="calorias">Calories</string>
+    <string name="nenhuma_informacao_extra_para_ser_mostrada">No extra information to be shown.</string>
+    <string name="informacoes">Informations</string>
+    <string name="tamanho_da_porcao">Portion size</string>
+    <string name="alimentos">Foods</string>
+    <string name="baixa_caloria">Low calorie</string>
+    <string name="media_caloria">Medium calorie</string>
+    <string name="alta_caloria">High calorie</string>
+</resources>
