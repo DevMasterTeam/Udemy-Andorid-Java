@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_all_guests">
+
+    <fragment
+        android:id="@+id/nav_all_guests"
+        android:name="com.example.convidados.view.AllGuestFragment"
+        android:label="@string/menu_all_guests"
+        tools:layout="@layout/fragment_all_guests" >
+        <argument
+            android:name="FILTER"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_present"
+        android:name="com.example.convidados.view.AllGuestFragment"
+        android:label="@string/menu_present"
+        tools:layout="@layout/fragment_all_guests" >
+        <argument
+            android:name="FILTER"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_absent"
+        android:name="com.example.convidados.view.AllGuestFragment"
+        android:label="@string/menu_absent"
+        tools:layout="@layout/fragment_all_guests" >
+        <argument
+            android:name="FILTER"
+            app:argType="integer"
+            android:defaultValue="2" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_guests"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_all_guests" />
+        <item
+            android:id="@+id/nav_present"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_present" />
+        <item
+            android:id="@+id/nav_absent"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_absent" />
+    </group>
+</menu>
