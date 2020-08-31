@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Componentes</string>
+
+    <string-array name="currency_array">
+        <item>Dólar</item>
+        <item>Euro</item>
+        <item>Libra</item>
+        <item>Real</item>
+    </string-array>
+
+</resources>
