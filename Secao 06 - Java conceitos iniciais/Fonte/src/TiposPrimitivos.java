@@ -1,7 +1,18 @@
 /**
- * Tipos primitivos: armazenamento simples de valor
- * Tipos não primitivos: Possuem métodos/funções dentro deles além de armazenar valores
-* */
+ * Todos os tipos de dados possuem tipos primitivos associados, exceto String.
+ * --
+ * Double       - double
+ * Float        - float
+ * Long         - long
+ * Integer      - int
+ * Short        - short
+ * Byte         - byte
+ * Boolean      - boolean
+ * Character    - char
+ * --
+ * Tipos primitivos: armazenamento simples de valor.
+ * Tipos não primitivos (objetos): Possuem métodos/funções dentro deles além de armazenar valores.
+ */
 public class TiposPrimitivos {
     public static void main(String[] args) {
 
@@ -14,7 +25,6 @@ public class TiposPrimitivos {
         short s = 11;
         long l = 584;
         char c = 'c';
-
 
         // Diferença entre tipos
         Integer int1 = 0;

@@ -1,4 +1,9 @@
-// Classe deve SEMRPE ter o mesmo nome do arquivo
+/**
+ * Classe deve SEMRPE ter o mesmo nome do arquivo.
+ * Não pode existir duas classes no mesmo arquivo Java.
+ *
+ * Qualquer código Java capaz de ser executado deve obrigatoriamente estar dentro de uma classe.
+ * */
 public class HelloWorld {
 
     /**
