@@ -53,10 +53,10 @@ public class Excecoes {
 
         // NullPointerException - Uma das exeções mais comuns no Java
         // Significa que os atributos ou métodos de uma variável nunca instaciada estão sendo acessados.
-        String str = excecoes.geraNomeUsuario("Jo");
+        String str = excecoes.geraNomeUsuario("Jonas Jonas");
         System.out.println(str.length());
 
-        // Toda função que lança uma exceção deve obrigatoriamente tratar
+        // Toda função que lança uma exceção deve obrigatoriamente ser tratada
         try {
             float resultado = excecoes.divisao(1, 0);
         } catch (Exception e) {
