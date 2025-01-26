@@ -1,5 +1,7 @@
 public class Portaria {
     public String controle(int idade, String tipo, String codigoConvite) {
+        codigoConvite = codigoConvite.toLowerCase();
+
         if (idade < 18) {
             return "Negado. Menores de idade não são permitidos.";
         }
@@ -8,11 +10,11 @@ public class Portaria {
             return "Negado. Convite inválido.";
         }
 
-        if ((tipo.equals("premium") || tipo.equals("luxo")) && codigoConvite.startsWith("XL")) {
+        if ((tipo.equals("premium") || tipo.equals("luxo")) && codigoConvite.startsWith("xl")) {
             return "Welcome :)";
         }
 
-        if (tipo.equals("comum") && codigoConvite.startsWith("XT")) {
+        if (tipo.equals("comum") && codigoConvite.startsWith("xt")) {
             return "Welcome :)";
         }
 
