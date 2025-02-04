@@ -1,0 +1,101 @@
+ID_VENDA;DATA;VENDEDOR;PRODUTO;CATEGORIA;VALOR
+101;2024-01-10;Carlos;Notebook Dell;Eletrônicos;4500
+102;2024-01-11;Ana;Smartphone Samsung;Eletrônicos;2500
+103;2024-01-12;Carlos;Teclado Mecânico;Periféricos;350
+104;2024-01-13;Bruno;Mouse Logitech;Periféricos;200
+105;2024-01-14;Fernanda;Monitor LG 24";Eletrônicos;1200
+106;2024-01-15;Ana;Fone de Ouvido JBL;Áudio;500
+107;2024-01-16;Carlos;Impressora HP;Eletrônicos;750
+108;2024-01-17;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+109;2024-01-18;Fernanda;Tablet Samsung;Eletrônicos;1800
+110;2024-01-19;Ana;HD Externo 1TB;Armazenamento;450
+111;2024-01-20;Carlos;Notebook Dell;Eletrônicos;4500
+112;2024-01-21;Ana;Smartphone Samsung;Eletrônicos;2500
+113;2024-01-22;Carlos;Teclado Mecânico;Periféricos;350
+114;2024-01-23;Bruno;Mouse Logitech;Periféricos;200
+115;2024-01-24;Fernanda;Monitor LG 24";Eletrônicos;1200
+116;2024-01-25;Ana;Fone de Ouvido JBL;Áudio;500
+117;2024-01-26;Carlos;Impressora HP;Eletrônicos;750
+118;2024-01-27;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+119;2024-01-28;Fernanda;Tablet Samsung;Eletrônicos;1800
+120;2024-01-29;Ana;HD Externo 1TB;Armazenamento;450
+121;2024-01-30;Carlos;Notebook Dell;Eletrônicos;4500
+122;2024-01-31;Ana;Smartphone Samsung;Eletrônicos;2500
+123;2024-02-01;Carlos;Teclado Mecânico;Periféricos;350
+124;2024-02-02;Bruno;Mouse Logitech;Periféricos;200
+125;2024-02-03;Fernanda;Monitor LG 24";Eletrônicos;1200
+126;2024-02-04;Ana;Fone de Ouvido JBL;Áudio;500
+127;2024-02-05;Carlos;Impressora HP;Eletrônicos;750
+128;2024-02-06;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+129;2024-02-07;Fernanda;Tablet Samsung;Eletrônicos;1800
+130;2024-02-08;Ana;HD Externo 1TB;Armazenamento;450
+131;2024-02-09;Carlos;Notebook Dell;Eletrônicos;4500
+132;2024-02-10;Ana;Smartphone Samsung;Eletrônicos;2500
+133;2024-02-11;Carlos;Teclado Mecânico;Periféricos;350
+134;2024-02-12;Bruno;Mouse Logitech;Periféricos;200
+135;2024-02-13;Fernanda;Monitor LG 24";Eletrônicos;1200
+136;2024-02-14;Ana;Fone de Ouvido JBL;Áudio;500
+137;2024-02-15;Carlos;Impressora HP;Eletrônicos;750
+138;2024-02-16;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+139;2024-02-17;Fernanda;Tablet Samsung;Eletrônicos;1800
+140;2024-02-18;Ana;HD Externo 1TB;Armazenamento;450
+141;2024-02-19;Carlos;Notebook Dell;Eletrônicos;4500
+142;2024-02-20;Ana;Smartphone Samsung;Eletrônicos;2500
+143;2024-02-21;Carlos;Teclado Mecânico;Periféricos;350
+144;2024-02-22;Bruno;Mouse Logitech;Periféricos;200
+145;2024-02-23;Fernanda;Monitor LG 24";Eletrônicos;1200
+146;2024-02-24;Ana;Fone de Ouvido JBL;Áudio;500
+147;2024-02-25;Carlos;Impressora HP;Eletrônicos;750
+148;2024-02-26;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+149;2024-02-27;Fernanda;Tablet Samsung;Eletrônicos;1800
+150;2024-02-28;Ana;HD Externo 1TB;Armazenamento;450
+151;2024-03-01;Carlos;Notebook Dell;Eletrônicos;4500
+152;2024-03-02;Ana;Smartphone Samsung;Eletrônicos;2500
+153;2024-03-03;Carlos;Teclado Mecânico;Periféricos;350
+154;2024-03-04;Bruno;Mouse Logitech;Periféricos;200
+155;2024-03-05;Fernanda;Monitor LG 24";Eletrônicos;1200
+156;2024-03-06;Ana;Fone de Ouvido JBL;Áudio;500
+157;2024-03-07;Carlos;Impressora HP;Eletrônicos;750
+158;2024-03-08;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+159;2024-03-09;Fernanda;Tablet Samsung;Eletrônicos;1800
+160;2024-03-10;Ana;HD Externo 1TB;Armazenamento;450
+161;2024-03-11;Carlos;Notebook Dell;Eletrônicos;4500
+162;2024-03-12;Ana;Smartphone Samsung;Eletrônicos;2500
+163;2024-03-13;Carlos;Teclado Mecânico;Periféricos;350
+164;2024-03-14;Bruno;Mouse Logitech;Periféricos;200
+165;2024-03-15;Fernanda;Monitor LG 24";Eletrônicos;1200
+166;2024-03-16;Ana;Fone de Ouvido JBL;Áudio;500
+167;2024-03-17;Carlos;Impressora HP;Eletrônicos;750
+168;2024-03-18;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+169;2024-03-19;Fernanda;Tablet Samsung;Eletrônicos;1800
+170;2024-03-20;Ana;HD Externo 1TB;Armazenamento;450
+171;2024-03-21;Carlos;Notebook Dell;Eletrônicos;4500
+172;2024-03-22;Ana;Smartphone Samsung;Eletrônicos;2500
+173;2024-03-23;Carlos;Teclado Mecânico;Periféricos;350
+174;2024-03-24;Bruno;Mouse Logitech;Periféricos;200
+175;2024-03-25;Fernanda;Monitor LG 24";Eletrônicos;1200
+176;2024-03-26;Ana;Fone de Ouvido JBL;Áudio;500
+177;2024-03-27;Carlos;Impressora HP;Eletrônicos;750
+178;2024-03-28;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+179;2024-03-29;Fernanda;Tablet Samsung;Eletrônicos;1800
+180;2024-03-30;Ana;HD Externo 1TB;Armazenamento;450
+181;2024-03-31;Carlos;Notebook Dell;Eletrônicos;4500
+182;2024-04-01;Ana;Smartphone Samsung;Eletrônicos;2500
+183;2024-04-02;Carlos;Teclado Mecânico;Periféricos;350
+184;2024-04-03;Bruno;Mouse Logitech;Periféricos;200
+185;2024-04-04;Fernanda;Monitor LG 24";Eletrônicos;1200
+186;2024-04-05;Ana;Fone de Ouvido JBL;Áudio;500
+187;2024-04-06;Carlos;Impressora HP;Eletrônicos;750
+188;2024-04-07;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+189;2024-04-08;Fernanda;Tablet Samsung;Eletrônicos;1800
+190;2024-04-09;Ana;HD Externo 1TB;Armazenamento;450
+191;2024-04-10;Carlos;Notebook Dell;Eletrônicos;4500
+192;2024-04-11;Ana;Smartphone Samsung;Eletrônicos;2500
+193;2024-04-12;Carlos;Teclado Mecânico;Periféricos;350
+194;2024-04-13;Bruno;Mouse Logitech;Periféricos;200
+195;2024-04-14;Fernanda;Monitor LG 24";Eletrônicos;1200
+196;2024-04-15;Ana;Fone de Ouvido JBL;Áudio;500
+197;2024-04-16;Carlos;Impressora HP;Eletrônicos;750
+198;2024-04-17;Bruno;Smartwatch Xiaomi;Eletrônicos;600
+199;2024-04-18;Fernanda;Tablet Samsung;Eletrônicos;1800
+200;2024-04-19;Ana;HD Externo 1TB;Armazenamento;450
