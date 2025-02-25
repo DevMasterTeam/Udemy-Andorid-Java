@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExercicioSeguros</string>
+    <string name="seguros_xpto">Seguros XPTO</string>
+    <string name="servicos">Serviços</string>
+    <string name="automoveis">Automóveis</string>
+    <string name="imoveis">Imóveis</string>
+    <string name="novidades">Novidades</string>
+    <string name="desconto">Desconto de 5% ao assinar esse mês!</string>
+    <string name="ajuda">Precisa de ajuda?</string>
+    <string name="entre_em_contato">Entre em contato</string>
+</resources>
