@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.example.programandointerface.R;
@@ -19,6 +20,7 @@ import com.example.programandointerface.constants.AppConstants;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    // Variáveis da classe
     private final ViewHolder viewHolder = new ViewHolder();
     private final UserBusiness userBusiness = new UserBusiness();
 
@@ -27,24 +29,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
 
         // Preenche as referências
+        viewHolder.linearLayoutMain = findViewById(R.id.main);
         viewHolder.editEmail = findViewById(R.id.edittext_email);
         viewHolder.editPassword = findViewById(R.id.edittext_password);
         viewHolder.buttonLogin = findViewById(R.id.button_login);
         viewHolder.buttonRegister = findViewById(R.id.button_register);
 
+        // Código abaixo faz o uso do padding do elemento raiz - LinearLayout
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left + viewHolder.linearLayoutMain.getPaddingStart(),
+                    systemBars.top,
+                    systemBars.right + viewHolder.linearLayoutMain.getPaddingEnd(),
+                    systemBars.bottom);
+            return insets;
+        });
+
+        // Atribui eventos
         setEvents();
     }
 
     /**
      * Eventos dos elementos de interface
-     * */
+     */
     private void setEvents() {
         viewHolder.buttonLogin.setOnClickListener(this);
     }
@@ -83,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * Mantém referência aos elementos
      */
     private static class ViewHolder {
+        LinearLayout linearLayoutMain;
         EditText editEmail;
         EditText editPassword;
         Button buttonLogin;
