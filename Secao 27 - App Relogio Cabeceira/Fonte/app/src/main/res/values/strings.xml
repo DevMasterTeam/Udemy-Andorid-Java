@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Relogio de Cabeceira</string>
+
+    <string name="msg_battery_level">Nível da bateria</string>
+    <string name="label_battery_level">%1$d%%</string>
+
+    <string name="desc_configurations">Configurações</string>
+    <string name="desc_close">Fechar</string>
+</resources>
