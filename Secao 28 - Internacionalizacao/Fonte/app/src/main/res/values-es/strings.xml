@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reloj de Cabecera</string>
+
+    <string name="msg_battery_level">Nivel de batería</string>
+    <string name="label_battery_level">%1$d%%</string>
+
+    <string name="desc_configurations">Configuraciones</string>
+    <string name="desc_close">Cerrar configuraciones</string>
+</resources>
